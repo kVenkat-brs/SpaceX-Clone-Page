@@ -1,0 +1,39 @@
+/* HEADING And Paragarphs styling */
+
+#Trendhading{
+    letter-spacing: 3px;
+}
+
+section p{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+/* Nav Bar Modifications */
+.dropdown-toggle::after {
+    content: "";
+    display: none;
+  }
+  
+  .navbar.border-bottom {
+    border-color: rgba(255, 255, 255, .1)!important;
+  }
+
+
+  /* Images Hover Effects */
+  .hoveredImage {
+    display: none;
+  }
+  
+  .TrendHoveredImage:hover .hoveredImage{
+    display: block;
+  }
+  .TrendHoveredImage:hover .nonHoveredImage {
+    display: none;
+  }
+
+  .btn-featured {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: black;
+  }
